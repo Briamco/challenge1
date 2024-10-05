@@ -38,6 +38,7 @@ body {
 .nav__hero {
     height: 70px;
     border-bottom: 1px solid gray;
+    background: #fafafa;
 }
 
 .nav__container{
@@ -104,6 +105,7 @@ body {
 
 .subtitle {
     font-size: 50px;
+    margin-bottom: 16px;
 }
 
 .subtitle--active {
@@ -198,10 +200,36 @@ textarea {
     border: none;
     border-radius: 6px;
     font-size: 18px;
+    font-weight: 700;
     cursor: pointer;
     transition: background 1s ease;
 }
 
 .Submit:hover {
     background: linear-gradient(180deg, #F7CE90 100%, #F4BD76 0%);;
+}
+
+@media (max-width: 600px) {
+    .title {
+        text-align: center;
+    }
+
+    .present__container {
+        flex-direction: column;
+    }
+
+    .present__text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .img {
+        width: 350px;
+        height: 350px;
+    }
 }
