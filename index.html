@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav__hero">
+            <div class="container nav__container">
+                <h2 class="logo__name">Briam</h2>
+                <div class="links">
+                    <a href="#about" class="link">About</a>
+                    <a href="#galery" class="link">Galery</a>
+                    <a href="#contact" class="link">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <section class="container hero__main">
+            <h1 class="title">Welcome to my <span class="title--active">Page!</span></h1>
+        </section>
+    </header>
+
+    <main>
+        <section class="description" id="about">
+            <div class="container present__container">
+                <div class="present__text">
+                    <h2 class="present">I'm <span class="present--active">Briam Gonzalez</span></h2>
+                    <p class="present__copy">I am a beginner programmer with knowledge in HTML, CSS, and JavaScript. I also have some skills in game development using the Godot Engine. My dream is to become a great programmer and create my own web application. I am committed to improving my skills every day, learning new technologies, and practicing constantly. I am passionate about programming and excited about the opportunities the future holds for me in this field.</p>
+                </div>
+                <div class="card">
+                    <div class="card__text">
+                        <h3 class="card__title">My <span class="subtitle--active">Hobbies:</span></h3>
+                        <ol class="card__list">
+                            <li>Learn new programmer skills.</li>
+                            <li>Sim-Racing.</li>
+                            <li>Wacht some movies.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="galery" id="galery">
+            <div class="container galery__container">
+                <div class="galery__text">
+                    <h2 class="subtitle galery__subtitle">Galery</h2>
+                </div>
+                <div class="galery__imgs">
+                    <img src="https://th.bing.com/th/id/R.80d14b9ca1d2f62cfc95897c2c422eed?rik=CJPKgKudIYP5Cw&riu=http%3a%2f%2fwww.anipedia.net%2fimagenes%2fpajaros-800x375.jpg&ehk=QSBfuE9AweEmAyu7XzW9YcPk3WMJ8eV9%2fAPZey9Du8w%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" alt="1" class="img">
+                    <img src="https://th.bing.com/th/id/R.67869bdd8a375f797e662afa3ecc75f6?rik=7Jvq5Z%2bxcsZisQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-c26sVu455tM%2fUVncvZVio_I%2fAAAAAAAAA30%2ftiQT-FbVKX8%2fs1600%2fLey_de_la_atraccion_28_Pajaro.jpg&ehk=eY%2bMb7vXXqNJHjDPIC7DcH2reESpphRoF3kBTcaaaAA%3d&risl=&pid=ImgRaw&r=0" alt="2" class="img">
+                    <img src="https://th.bing.com/th/id/R.9a3e0b399ad24ede1a2474580da4c71f?rik=FuHir7h1CYrwwQ&riu=http%3a%2f%2fwww.avesypajaros.com%2fImagenes%2faves-diamante-de-gould.jpg&ehk=azqYvzTq3TwZTphq5NX3VLPjC2kQfsBojrPgmEQmdIg%3d&risl=&pid=ImgRaw&r=0" alt="3" class="img">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5ede6f5665eb9856c72471b2/1623797208648-VJG19S45JZ8WFWBI5BVK/9076_pajaros-que-mienten.jpg" alt="4" class="img">
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="subtitle">Contact</h2>
+                <form action="contact" class="form__contact">
+                    <input type="text" placeholder="name" class="input">
+                    <input type="email" placeholder="email" class="input">
+                    <textarea name="feedback" id="feedback" rows="6" cols="60" placeholder="Write your feedback here..."></textarea>
+                    <input type="submit" value="Submit" class="Submit">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
